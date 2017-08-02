@@ -6,6 +6,7 @@ logs
 node_modules/
 
 package-lock.json
+slingskillconfig.json
 
 /.tmp
 *.zip
