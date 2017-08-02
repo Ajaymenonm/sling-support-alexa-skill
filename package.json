@@ -6,9 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajaymenonm/sling-support-alexa-skill.git"
+  },
   "author": "AM",
   "license": "ISC",
   "dependencies": {
-    "alexa-app": "^4.0.1"
+    "alexa-app": "^4.0.1",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sequence": "^0.4.6",
+    "gulp-zip": "^4.0.0"
   }
 }
